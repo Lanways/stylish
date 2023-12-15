@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 200px;
+  /* 或者使用百分比/弹性布局来定义宽度 */
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cardBody {
+  padding: 16px;
+  text-align: center;
+}
+
+.cardTitle {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.cardPrice {
+  font-size: 0.875rem;
+  color: #666;
+}

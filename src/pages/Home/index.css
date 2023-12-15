@@ -1,0 +1,23 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  /* 如果需要在组件之间增加间距 */
+  padding: 20px;
+  /* 根据需要在容器内部增加间距 */
+  max-width: 1200px;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar {
+  /* 或者使用百分比，例如 20% */
+  margin-right: 20px;
+  /* 如果你想在组件之间有间距 */
+}
+
+.main-content {
+  flex-grow: 1;
+  /* 让主内容区域填充剩余空间 */
+  max-width: calc(100% - 240px);
+  /* 减去侧边栏宽度和间距的宽度 */
+}
